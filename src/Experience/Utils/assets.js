@@ -2,7 +2,7 @@ const isIOS =
   /iPhone|iPad|iPod/i.test(navigator.userAgent) ||
   (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 
-const ext = isIOS ? "ktx2" : "webp";
+const ext = "webp";
 
 export default [
   {
